@@ -1,5 +1,6 @@
+import SearchForm from "@/Components/SearchForm";
 import Image from "next/image";
-import SearchForm from "../Components/SearchForm";
+
 
 export default async function Home({searchParams}:{searchParams:Promise<{query?:string}>}) {
 
@@ -15,6 +16,7 @@ export default async function Home({searchParams}:{searchParams:Promise<{query?:
         Submit Ideas, Vote on Pitches, and Get Noticed in Virtual Cometitions. 
       </p>
       <SearchForm query={query}/>
+      
     </section>
 
     
