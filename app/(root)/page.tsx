@@ -7,12 +7,12 @@ export default async function Home({searchParams}:{searchParams:Promise<{query?:
 
     const query=(await searchParams).query
     const posts =[{ 
-      _createdAt:'yesterday',
+      _createdAt:new Date(),
       views:55,
       likes:10,
-      author:{_id:1},
+      author:{_id:1,name:'Yash'},
       _id:1,
-      image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNCLSj8j9yPj-QYb3EmuXt9Z2XJy5enkC4Lg&s',
+      image:'https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod facilisis nulla, sed suscipit est mattis at.',
       category:'Robots',
       title:'We Robots'
