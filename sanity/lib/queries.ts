@@ -18,7 +18,7 @@ defineQuery(
     category,
     image,
     title,
-    view,
+    views,
     pitch
   }`
   )
@@ -34,15 +34,19 @@ defineQuery(
     username,
     image,
     slug,
-    bio,
-    
-    
+    bio,  
   },
   description,
   category,
   image,
   title,
-  view,
+  views,
   pitch
 }
 `)
+
+export const STARTUP_VIEWS_QUERY=defineQuery(`*[_type=='startup'
+  && _id==$id][0]{
+ _id,
+ views
+}`)
