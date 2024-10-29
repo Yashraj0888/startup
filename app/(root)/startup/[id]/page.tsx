@@ -7,7 +7,7 @@ import { notFound } from 'next/navigation'
 import React, { Suspense } from 'react'
 import markdownit from 'markdown-it'
 import { Skeleton } from '@/Components/ui/skeleton'
-import View from '@/Components/view'
+import View from '@/Components/View'
 
 const md=markdownit()
 
