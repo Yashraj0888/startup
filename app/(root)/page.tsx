@@ -1,3 +1,4 @@
+import { auth } from "@/auth";
 import SearchForm from "@/Components/SearchForm";
 import StartupCard,{StartupTypeCard} from "@/Components/StartupCard";
 
@@ -13,6 +14,10 @@ export default async function Home({searchParams}:{searchParams:Promise<{query?:
     const query=(await searchParams).query
 
     const params={search:query || null};
+
+    const session = await auth()
+
+    console.log(session?.id)
 
 
     const {data:posts}=await sanityFetch({query:STARTUPS_QUERY,params})
