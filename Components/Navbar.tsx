@@ -52,7 +52,7 @@ const Navbar = async () => {
                     src={session?.user?.image || ''}  // Display user's profile image if available
                     alt={session?.user?.name || ''}   // Display user's name if available
                   /> 
-                  <AvatarFallback>AV</AvatarFallback>  // Default avatar if image is unavailable
+                  <AvatarFallback>AV</AvatarFallback> 
                 </Avatar>
               </Link>
             </>

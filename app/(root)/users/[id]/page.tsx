@@ -5,7 +5,7 @@ import { notFound } from "next/navigation"; // Importing the notFound function t
 import Image from "next/image"; // Importing the Image component from Next.js for optimized images
 import UserStartups from "@/Components/UserStartups"; // Importing the UserStartups component to display startups by the user
 import { Suspense } from "react"; // Importing Suspense for loading states in React
-import { Skeleton } from "@/Components/ui/skeleton"; // Importing Skeleton component for placeholder UI
+
 import { StartupCardSkeleton } from "@/Components/StartupCard"; // Importing a skeleton component for startup cards
 
 // Enabling experimental features for server components

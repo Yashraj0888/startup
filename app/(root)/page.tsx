@@ -4,8 +4,7 @@ import StartupCard, { StartupTypeCard } from "@/Components/StartupCard"; // Impo
 
 import { sanityFetch, SanityLive } from "@/sanity/lib/live"; // Importing functions for data fetching from Sanity
 import { STARTUPS_QUERY } from "@/sanity/lib/queries"; // Importing the query for fetching startups
-import { log } from "console"; // Importing console logging (not utilized in this code)
-import Image from "next/image"; // Importing the Image component from Next.js for optimized images
+
 
 // Asynchronous Home component for displaying the startup pitch page
 export default async function Home({ searchParams }: { searchParams: Promise<{ query?: string }> }) {
