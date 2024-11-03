@@ -8,7 +8,7 @@ import { parseServerActionResponse } from "./util";
 
 
 export const createPitch = async (
-  // state: any,
+  state: any,
   form: FormData,
   pitch: string,
 ) => {
