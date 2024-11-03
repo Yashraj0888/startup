@@ -11,8 +11,8 @@ import Image from "next/image";
 
 import markdownit from "markdown-it";
 import { formatDate } from "@/lib/util";
-import { Skeleton } from "@/Components/ui/skeleton";
-import View from "@/Components/View";
+import { Skeleton } from "@/components/ui/skeleton";
+import View from "@/components/View";
 
 
 

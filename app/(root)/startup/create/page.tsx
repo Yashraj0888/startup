@@ -1,5 +1,5 @@
 import { auth } from '@/auth'
-import StartupForm from '@/Components/StartupForm'
+import StartupForm from '@/components/StartupForm'
 
 import { redirect } from 'next/navigation'
 import React from 'react'
