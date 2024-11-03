@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import UserStartups from "@/Components/UserStartups";
 import { Suspense } from "react";
-import { Skeleton } from "@/Components/ui/skeleton";
 import { StartupCardSkeleton } from "@/Components/StartupCard";
 
 

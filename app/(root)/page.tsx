@@ -4,8 +4,7 @@ import StartupCard,{StartupTypeCard} from "@/Components/StartupCard";
 
 import { sanityFetch, SanityLive } from "@/sanity/lib/live";
 import { STARTUPS_QUERY } from "@/sanity/lib/queries";
-import { log } from "console";
-import Image from "next/image";
+
 
 
 
